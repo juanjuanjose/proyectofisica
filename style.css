@@ -1,0 +1,18 @@
+canvas {
+    border: 1px solid white;
+    background-image: url(imagenes/carretera.png);
+}
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto hace que el contenedor ocupe el 100% de la altura de la ventana */
+}
+
+body{
+    background-image: url(imagenes/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
