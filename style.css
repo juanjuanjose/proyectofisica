@@ -20,8 +20,6 @@ body{
     
 }
 
-
-
 .contenedor > h1 {
     font-size: 20px;
 }
@@ -38,14 +36,12 @@ body{
     background-color: #312e31;
     margin: 10px;
     padding: 10px;
-
     display: inline-block;
     text-align: center;
     overflow:auto ;
     justify-content: space-around;
     color: white;
 }
-
 
 
 .contenedor > li {
