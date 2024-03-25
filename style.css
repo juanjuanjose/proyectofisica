@@ -9,7 +9,7 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Esto hace que el contenedor ocupe el 100% de la altura de la ventana */
+    
 }
 
 body{
@@ -17,5 +17,39 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+
+
+.contenedor > h1 {
+    font-size: 20px;
+}
+
+.divcontenedor{
+    justify-content:space-evenly ;
+    display: flex;
+    
+}
+
+.contenedor {
+    width: 20rem;
+    height: 200px;
+    background-color: #312e31;
+    margin: 10px;
+    padding: 10px;
+
+    display: inline-block;
+    text-align: center;
+    overflow:auto ;
+    justify-content: space-around;
+    color: white;
+}
+
+
+
+.contenedor > li {
+    list-style: circle;
+    text-align: center;
     
 }
