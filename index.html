@@ -8,8 +8,33 @@
 </head>
 <body>
     <div id="gameContainer">
-        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <canvas id="gameCanvas" width="900" height="400"></canvas>
     </div>
+    <div class="divcontenedor">
+            <div class="contenedor">
+                <h1>Velocidad</h1>
+                <ul>
+                <li>La velocidad del coche del jugador se controla mediante las teclas de flecha.</li>
+                <li>Cuando se presionan las teclas de flecha izquierda o derecha, la velocidad lateral del coche cambia, lo que afecta su movimiento horizontal.</li>
+                <li>Las teclas de flecha arriba y abajo controlan la velocidad vertical del coche, afectando su movimiento vertical. </li>
+                </ul>
+            </div>
+            <div class="contenedor">
+                <h1>Fricción</h1>
+             <ul>
+                <li>La fricción se aplica cuando no se presionan las teclas de flecha, reduciendo gradualmente la velocidad del coche del jugador.</li>
+             </ul>
+            </div>
+            <div class="contenedor">
+                <h1>Colisiones</h1>
+                <ul>
+                <li>Las colisiones se detectan comparando las posiciones y dimensiones de los coches del jugador y el enemigo.</li>
+                <li>Cuando se detecta una colisión, se realizan acciones como mostrar una explosión y reiniciar el juego.</li>
+                
+             </ul> 
+            </div>
+    </div>
+
 </body>
 <script src="app.js"></script>
 </html>
